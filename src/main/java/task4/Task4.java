@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 import static helpers.HelperMethods.readString;
 
+/*
+4.	Создать программу, которая будет подсчитывать количество слов в предложении и выводить их в отсортированном виде.
+Предложение вводится вручную. (Разделители пробел (“ ”) и запятая (“,”)).
+*/
+
 public class Task4 {
     public static void main(String[] args) {
         System.out.println("Enter the string, than press \"Enter\"");

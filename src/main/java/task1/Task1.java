@@ -4,6 +4,11 @@ import java.math.BigInteger;
 
 import static helpers.HelperMethods.getIntegerNumber;
 
+/*
+1. Создать программу, которая будет сообщать, является ли целое число, введенное пользователем, чётным или нечётным,
+ простым или составным.  Если пользователь введёт не целое число, то сообщать ему об ошибке.
+*/
+
 public class Task1 {
     public static void main(String[] args) {
 
