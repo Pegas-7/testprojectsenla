@@ -80,14 +80,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task7.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task7.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task7/Task7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+            <state relative-caret-position="238">
+              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#742#751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task8.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/task8/Task8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1077#1086#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,15 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/task8/Task8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -133,12 +137,12 @@
         <option value="$PROJECT_DIR$/src/main/java/task2/Task2.java" />
         <option value="$PROJECT_DIR$/src/main/java/task10/Task10.java" />
         <option value="$PROJECT_DIR$/src/main/java/task9/Task9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/task8/Task8.java" />
         <option value="$PROJECT_DIR$/src/main/java/task4/Task4.java" />
         <option value="$PROJECT_DIR$/src/main/java/task3/Task3.java" />
         <option value="$PROJECT_DIR$/src/main/java/task5/Task5.java" />
         <option value="$PROJECT_DIR$/src/main/java/task6/Task6.java" />
         <option value="$PROJECT_DIR$/src/main/java/task7/Task7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/task8/Task8.java" />
       </list>
     </option>
   </component>
@@ -312,18 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task7">
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Task3" />
-      <module name="testprojectsenla" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Task8">
     <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task4.Task4" />
       <module name="testprojectsenla" />
@@ -364,6 +357,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task8.Task8" />
+      <module name="testprojectsenla" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +414,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Task4" />
       <item itemvalue="Application.Task5" />
       <item itemvalue="Application.Task6" />
       <item itemvalue="Application.Task7" />
+      <item itemvalue="Application.Task8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task8" />
         <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task6" />
         <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -441,12 +445,12 @@
       <workItem from="1526648703086" duration="13919000" />
       <workItem from="1526837234138" duration="8930000" />
       <workItem from="1526891845275" duration="1607000" />
-      <workItem from="1526895787083" duration="1301000" />
+      <workItem from="1526895787083" duration="3563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34441000" />
+    <option name="totallyTimeSpent" value="36703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -462,11 +466,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31962025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34388185" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,7 +496,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url />
+          <url>jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/AbstractList.java</url>
           <line>159</line>
           <properties class="java.util.AbstractList" method="remove">
             <option name="EMULATED" value="true" />
@@ -562,6 +566,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1077#1086#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -828,24 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task3/Task3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task6/Task6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task8/Task8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -866,6 +860,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task3/Task3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helpers/HelperMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -878,11 +879,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/task7/Task7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
+        <state relative-caret-position="238">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#742#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task8/Task8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1077#1086#0" expanded="true" />
           </folding>
         </state>
       </provider>
