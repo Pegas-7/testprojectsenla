@@ -24,12 +24,12 @@ public class Task1 {
         if (n % 2 == 0 && n <= 1) {
             System.out.println("Entered even, no composite and no prime number");
         } else {
-            System.out.println("Entered odd, " + CompositeOrPrimeNumber(n) +
+            System.out.println("Entered odd, " + compositeOrPrimeNumber(n) +
                     " number");
         }
     }
 
-    private static String CompositeOrPrimeNumber(int n) {
+    private static String compositeOrPrimeNumber(int n) {
         String typeNumber = "composite";
         boolean probablePrime = false;
 

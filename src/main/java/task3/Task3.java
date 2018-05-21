@@ -10,6 +10,7 @@ import static helpers.HelperMethods.readString;
 public class Task3 {
     public static void main(String[] args) {
         System.out.println("Enter the string to check for polydromy, than press \"Enter\"");
+
         if (isPalindrome(readString())){
             System.out.println("Entered string is palindrome");
         }
