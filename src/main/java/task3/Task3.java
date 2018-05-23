@@ -9,17 +9,15 @@ import static helpers.HelperMethods.readString;
 
 public class Task3 {
     public static void main(String[] args) {
-        System.out.println("Enter the string to check for polydromy, than press \"Enter\"");
+        System.out.println("Enter the word to check for polydromy, than press \"Enter\"");
 
         if (isPalindrome(readString())){
-            System.out.println("Entered string is palindrome");
+            System.out.println("Entered word is palindrome");
         }
-        else System.out.println("Entered string is not palindrome");
+        else System.out.println("Entered word is not palindrome");
     }
 
     public static boolean isPalindrome(String text) {
-        return text.replaceAll("\\W","").replaceAll("\\_","")
-                .equalsIgnoreCase(new StringBuilder(text.replaceAll("\\W","").replaceAll("\\_",""))
-                        .reverse().toString());
+        return text.equalsIgnoreCase(new StringBuilder(text).reverse().toString());
     }
 }

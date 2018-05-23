@@ -8,12 +8,12 @@ package task7;
 import java.util.ArrayList;
 import java.util.List;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 public class Task7 {
     public static void main(String[] args) {
         System.out.println("Specify the length of the array");
-        List<Integer> numbers = numberGenerator(getIntegerNumber());
+        List<Integer> numbers = numberGenerator(readInteger());
 
         int greatestNumber = seekingGreatestNumber(numbers);
         int smallestNumber = seekingSmallestNumber(numbers);

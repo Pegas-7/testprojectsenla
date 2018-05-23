@@ -2,7 +2,7 @@ package task1;
 
 import java.math.BigInteger;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 /*
 1. Создать программу, которая будет сообщать, является ли целое число, введенное пользователем, чётным или нечётным,
@@ -12,7 +12,7 @@ import static helpers.HelperMethods.getIntegerNumber;
 public class Task1 {
     public static void main(String[] args) {
 
-        int n = getIntegerNumber();
+        int n = readInteger();
         isEvenNumber(n);
     }
 

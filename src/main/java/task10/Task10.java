@@ -8,15 +8,15 @@ package task10;
 import java.util.ArrayList;
 import java.util.List;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 public class Task10 {
     public static void main(String[] args) {
         System.out.println("Enter three numbers");
 
-        int firstNumber = getIntegerNumber();
-        int secondNumber = getIntegerNumber();
-        int thirdNumber = getIntegerNumber();
+        int firstNumber = readInteger();
+        int secondNumber = readInteger();
+        int thirdNumber = readInteger();
 
         List<Integer> list = threeDigitNumberGenerator(firstNumber, secondNumber, thirdNumber);
 
@@ -41,6 +41,17 @@ public class Task10 {
         n = thirdNumber * 100 + secondNumber * 10 + firstNumber;
         if (!list.contains(n)) list.add(n);
 
+        list = removeNoThreeDigitNumber(list);
+
         return list;
+    }
+
+    public static List<Integer> removeNoThreeDigitNumber(List<Integer> list) {
+        List<Integer> list2 = new ArrayList<Integer>();
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) > 99 && list.get(i) < 1000) list2.add(list.get(i));
+        }
+        return list2;
     }
 }

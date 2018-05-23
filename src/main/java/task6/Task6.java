@@ -5,14 +5,14 @@ package task6;
 вводится вручную.
 */
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 public class Task6 {
     public static void main(String[] args) {
 
-        int lengthFirstLine = getIntegerNumber();
-        int lengthSecondLine = getIntegerNumber();
-        int lengthThirdLine = getIntegerNumber();
+        int lengthFirstLine = readInteger();
+        int lengthSecondLine = readInteger();
+        int lengthThirdLine = readInteger();
 
         if (checkLinesRightTriangle(lengthFirstLine, lengthSecondLine, lengthThirdLine))
             System.out.println("This is a right triangle");

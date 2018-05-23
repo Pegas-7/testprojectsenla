@@ -8,7 +8,7 @@ package task8;
 import java.util.ArrayList;
 import java.util.List;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 public class Task8 {
     static int sizeSequence = 0;
@@ -25,12 +25,12 @@ public class Task8 {
         int sizeSequence;
 
         while (true) {
-            System.out.println("Specify the length of the sequence. Range of numbers from 1 to 100");
+            System.out.println("Specify the length of the sequence. Range of numbers from 0 to 100");
 
-            sizeSequence = getIntegerNumber();
+            sizeSequence = readInteger();
 
-            if (sizeSequence > 100) {
-                System.out.println("Entered number greatest than 100 or less than 1");
+            if (sizeSequence > 100 || sizeSequence < 0) {
+                System.out.println("Entered number greatest than 100 or less than 0");
             } else break;
         }
 
@@ -40,7 +40,7 @@ public class Task8 {
     public static List<Integer> findPalindromesNumber(int N) {
         List<Integer> list = new ArrayList<Integer>();
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i <= N; i++) {
             if (isPalindrome(i)) list.add(i);
         }
 

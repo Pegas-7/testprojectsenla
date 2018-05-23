@@ -24,7 +24,7 @@ public class HelperMethods {
     }
 
 
-    public static int getIntegerNumber() {
+    public static int readInteger() {
         int n = 0;
         String number = "";
 

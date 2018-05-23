@@ -8,13 +8,13 @@ package task9;
 import java.util.ArrayList;
 import java.util.List;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 public class Task9 {
     public static void main(String[] args) {
         System.out.println("Specify the length of the sequence");
 
-        int sizeSequence = getIntegerNumber();
+        int sizeSequence = readInteger();
 
         List<Integer> evenNumbers = findEvenNumber(sizeSequence);
 

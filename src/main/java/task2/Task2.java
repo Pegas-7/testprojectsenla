@@ -1,6 +1,6 @@
 package task2;
 
-import static helpers.HelperMethods.getIntegerNumber;
+import static helpers.HelperMethods.readInteger;
 
 /*
 2.	Создать программу, которая будет вычислять и выводить на экран сумму, разность, НОК и НОД двух целых чисел,
@@ -9,8 +9,8 @@ import static helpers.HelperMethods.getIntegerNumber;
 
 public class Task2 {
     public static void main(String[] args) {
-        int n1 = getIntegerNumber();
-        int n2 = getIntegerNumber();
+        int n1 = readInteger();
+        int n2 = readInteger();
 
         printScreenSum(n1, n2);
         printScreenDifference(n1, n2);
